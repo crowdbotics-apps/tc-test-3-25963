@@ -1,4 +1,4 @@
-"""tc_test_3_25963 URL Configuration
+"""demo URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
@@ -35,15 +35,15 @@ urlpatterns = [
     path("rest-auth/registration/", include("rest_auth.registration.urls")),
 ]
 
-admin.site.site_header = "TC Test 3"
-admin.site.site_title = "TC Test 3 Admin Portal"
-admin.site.index_title = "TC Test 3 Admin"
+admin.site.site_header = "demo"
+admin.site.site_title = "demo Admin Portal"
+admin.site.index_title = "demo Admin"
 
 # swagger
 api_info = openapi.Info(
-    title="TC Test 3 API",
+    title="demo API",
     default_version="v1",
-    description="API documentation for TC Test 3 App",
+    description="API documentation for demo App",
 )
 
 schema_view = get_schema_view(

@@ -1,4 +1,4 @@
-package com.tc_test_3_25963;
+package com.demo;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "tc_test_3_25963";
+    return "demo";
   }
 }
